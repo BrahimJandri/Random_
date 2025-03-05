@@ -11,6 +11,20 @@ exception::exception() : _name("L3riss"), _age(32), _salary(10000)
         throw exception::SalaryTooLow();
 }
 
+exception::exception(std::string name, int age, int salary)
+{
+    this->_name = name;
+    this->_age = age;
+    this->_salary = salary;
+
+    if (_age < 28)
+        throw exception::AgeTooLow();
+    if (_age > 32)
+        throw exception::AgeTooHigh();
+    if (_salary < 10000)
+        throw exception::SalaryTooLow();
+}
+
 exception::exception(const exception &other) : _name(other._name), _age(other._age), _salary(other._salary)
 {
     if (_age < 28)

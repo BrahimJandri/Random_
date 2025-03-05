@@ -12,6 +12,7 @@ private:
 
 public:
     exception();
+    exception(std::string name, int age, int salary);
     exception(const exception &other);
     exception &operator=(const exception &other);
     ~exception();
