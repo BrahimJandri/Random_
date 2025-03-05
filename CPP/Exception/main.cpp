@@ -6,7 +6,7 @@ int main()
     try
     {
         exception test1;
-        exception test("brahim", 29, 30000);
+        exception test("John", 20, 30000);
         test1 = test; 
         std::cout << test1 << std::endl;   
     }
