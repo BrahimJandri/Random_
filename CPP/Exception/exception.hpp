@@ -8,7 +8,7 @@ class exception
 private:
     std::string _name;
     int _age;
-    double _salary;
+    int _salary;
 
 public:
     exception();
@@ -16,7 +16,23 @@ public:
     exception &operator=(const exception &other);
     ~exception();
 
-    
-}
+    class AgeTooHigh : public std::exception
+    {
+    public:
+        const char *what() const throw();
+    };
+
+    class SalaryTooLow : public std::exception
+    {
+        public:
+        const char *what() const throw();
+    };
+
+    class AgeTooLow : public std::exception
+    {
+    public:
+        const char *what() const throw();
+    };
+};
 
 #endif
