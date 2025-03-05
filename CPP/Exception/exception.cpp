@@ -1,6 +1,6 @@
 #include "exception.hpp"
 
-exception::exception() : _name("L3riss"), _age(32), _salary(1000)
+exception::exception() : _name("L3riss"), _age(32), _salary(10000)
 {
     std::cout << "Default Constractor" << std::endl;
     if (_age < 28)
@@ -50,4 +50,25 @@ const char *exception::SalaryTooLow::what() const throw()
 exception::~exception()
 {
     std::cout << "Default Destractor" << std::endl;
+}
+
+std::string exception::getName()
+{
+    return _name;
+}
+
+int exception::getAge()
+{
+    return _age;
+}
+
+int exception::getSalary()
+{
+    return _salary;
+}
+
+std::ostream &operator<<(std::ostream &out, exception &e)
+{
+    out << "Husband Name is " << e.getName() << " he's age is " << e.getAge() << " he's Salary is " << e.getSalary() << " DH";
+    return out;
 }

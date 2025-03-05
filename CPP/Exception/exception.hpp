@@ -16,6 +16,10 @@ public:
     exception &operator=(const exception &other);
     ~exception();
 
+
+    std::string getName();
+    int getAge();
+    int getSalary();
     class AgeTooHigh : public std::exception
     {
     public:
@@ -34,5 +38,7 @@ public:
         const char *what() const throw();
     };
 };
+
+std::ostream &operator<<(std::ostream &out, exception &e);
 
 #endif
