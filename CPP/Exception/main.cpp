@@ -5,7 +5,7 @@ int main()
 {
     try
     {
-        exception test; 
+        exception test("brahim", 29, 30000); 
         std::cout << test << std::endl;   
     }
     catch(const std::exception& e)
