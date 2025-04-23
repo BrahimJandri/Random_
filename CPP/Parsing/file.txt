@@ -1,0 +1,6 @@
+onfo {
+    first_name : brahim;
+    last_name : jandri;
+    age : 23y;
+    job : software engineer;
+}
