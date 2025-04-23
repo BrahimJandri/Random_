@@ -13,3 +13,5 @@ clean:
 
 fclean: clean
 	rm -rf parsing
+
+re: fclean all

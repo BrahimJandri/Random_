@@ -1,4 +1,4 @@
-onfo {
+Info {
     first_name : brahim;
     last_name : jandri;
     age : 23y;
