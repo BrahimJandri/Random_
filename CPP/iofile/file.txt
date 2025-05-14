@@ -1,0 +1,13 @@
+names, ages
+brahim - 24
+oussama - 32
+ali - 45
+mohmaed - 21
+rachid - 21
+driss - 25
+yassin - 25
+khalid - 20
+mounaaim - 35
+majid - 51
+yassir - 12
+youssef - 22
