@@ -1,13 +1,13 @@
 names, ages
-brahim - 24
-oussama - 32
-ali - 45
-mohmaed - 21
-rachid - 21
-driss - 25
-yassin - 25
-khalid - 20
-mounaaim - 35
-majid - 51
-yassir - 12
-youssef - 22
+brahim - 24 - agadir
+oussama - 32 - marrakech
+ali - 45 - taza
+mohmaed - 21 - fes
+rachid - 21 - rabat
+driss - 25 - casablanca
+yassin - 25 - tan-tan
+khalid - 20 - meknass
+mounaaim - 35 - agadir
+majid - 51 - tiznit
+yassir - 12 - tetouan
+youssef - 22 - taroudant
